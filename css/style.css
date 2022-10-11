@@ -1,0 +1,12 @@
+/* css */
+
+body{
+    background-image: url('../img/sidebar-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-color: bisque
+}
+
+main ul{
+    list-style: none;
+}
