@@ -10,7 +10,7 @@ if(anniUtente < 18){
     calcoloSconto = (kmRequest * costoalKm * 20) / 100;
     costoFinale = (kmRequest * costoalKm) - calcoloSconto;
     document.getElementById('dirittosconto').innerHTML = "Sei minorenne, hai diritto al 20% di sconto!";
-}else if(anniUtente > 65){
+}else if(anniUtente >= 65){
     calcoloSconto = (kmRequest * costoalKm * 40) / 100;
     costoFinale = (kmRequest * costoalKm) - calcoloSconto;
     document.getElementById('dirittosconto').innerHTML = "Sei Over-65, hai diritto al 40% di sconto!";
